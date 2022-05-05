@@ -1,0 +1,97 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body
+{
+    position: relative;
+}
+h3
+{
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h4
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    float: right;
+    border: 1px black;
+    border-style: none none solid solid;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    clear: left;
+    padding: 10px 30px 10px 30px;
+}
+.one
+{
+    background-color: coral;
+}
+.two
+{
+    background-color: darkseagreen;
+}
+.three
+{
+    background-color: darkkhaki;
+}
+p
+{
+    clear: right;
+    padding: 5px;
+}
+div
+{
+    float: left;
+    border: 1px solid black;
+    background-color: darkgray;
+    position: relative;
+   
+    
+}
+@media (min-width:992px)
+{
+    div
+    {
+        float: left;
+        width: 31%;
+        margin: 10px;
+    }
+}
+@media (min-width:768px) and (max-width:991px)
+{
+    div
+    {
+        margin: 15px;
+    }
+    .box1 
+    {
+        float: left;
+        width: 46%;
+    }
+
+    .box2
+    {
+        float: right;
+        width: 46%;
+    }
+
+    .box3
+    {
+        width: 96.5%;
+    }
+}
+@media (max-width:767px)
+{
+    div 
+    {
+        margin: 10px;
+    }
+    .box1 .box2 .box3
+    {
+        width: 90%;
+    }
+}
